@@ -3,6 +3,7 @@ package nl.siegmann.ehcachetag;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
+import javax.servlet.annotation.WebListener;
 
 import net.sf.ehcache.CacheManager;
 import nl.siegmann.ehcachetag.cachetagmodifier.CacheTagModifierFactory;
@@ -12,6 +13,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+@WebListener
 public class EHCacheTagServletContextListener implements ServletContextListener {
 
 	private static final Logger LOG = LoggerFactory.getLogger(EHCacheTagServletContextListener.class);
