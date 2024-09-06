@@ -14,6 +14,26 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>druid-repository</id>
+      <name>DruID Repository</name>
+      <url>https://nexus.dru-id.com/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>druid-snapshot-repository</id>
+      <name>DruID Snapshot Repository</name>
+      <url>https://nexus.dru-id.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
+  <scm>
+    <connection>scm:git:git@github.com:dru-id/ehcachetag.git</connection>
+    <developerConnection>scm:git:git@github.com:dru-id/ehcachetag.git</developerConnection>
+    <url>https://github.com/dru-id/ehcachetag</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <modules>
     <module>ehcachetag-parent</module>
   </modules>
