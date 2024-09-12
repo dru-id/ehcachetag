@@ -9,7 +9,7 @@
 	<parent>
 		<groupId>nl.siegmann.ehcachetag</groupId>
 		<artifactId>ehcachetag-parent</artifactId>
-		<version>1.1</version>
+		<version>1.2-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
 
@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>nl.siegmann.ehcachetag</groupId>
 			<artifactId>ehcachetag</artifactId>
-			<version>1.1</version>
+			<version>1.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-lang</groupId>
