@@ -4,11 +4,14 @@
 	http:/java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_1.xsd"
 	version="2.1">
 
-	<short-name>ehcachetag</short-name>
 	<description>Enables the caching of jsp fragments</description>
+	<display-name>ehcachetag</display-name>
 	<tlib-version>1.0</tlib-version>
-	<listener>nl.siegmann.ehcachetag.EHCacheTagServletContextListener</listener>
+	<short-name>ehcachetag</short-name>
 	<uri>http://www.siegmann.nl/ehcachetag/taglib</uri>
+	<listener>
+		<listener-class>nl.siegmann.ehcachetag.EHCacheTagServletContextListener</listener-class>
+	</listener>
 	<tag>
 		<description>Caches the bodycontent</description>
 		<display-name>cache</display-name>
@@ -17,18 +20,18 @@
 		<body-content>JSP</body-content>
 		<attribute>
 			<name>key</name>
-			<type>java.lang.Object</type>
 			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.Object</type>
 		</attribute>
 		<attribute>
 			<name>cache</name>
-			<type>java.lang.String</type>
 			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
 		</attribute>
 		<attribute>
 			<name>modifiers</name>
-			<type>java.lang.String</type>
 			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
 		</attribute>
 	</tag>
 </taglib>
