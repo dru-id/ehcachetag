@@ -3,7 +3,7 @@
 
   <groupId>nl.siegmann.ehcachetag</groupId>
   <artifactId>ehcachetag-main</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>pom</packaging>
 
   <name>ehcachetag-main</name>
@@ -30,7 +30,7 @@
     <connection>scm:git:git@github.com:dru-id/ehcachetag.git</connection>
     <developerConnection>scm:git:git@github.com:dru-id/ehcachetag.git</developerConnection>
     <url>https://github.com/dru-id/ehcachetag</url>
-    <tag>HEAD</tag>
+    <tag>ehcachetag-main-1.1</tag>
   </scm>
 
   <modules>
